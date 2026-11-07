@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    body { background-color: #f4f7f9; }
+    .contact-header { text-align: center; padding: 30px 20px 10px 20px; }
+    .contact-header h1 { font-weight: 700; color: #00695c; margin-bottom: 10px; }
+    .contact-header p { font-size: 1.1rem; color: #444; max-width: 700px; margin: auto; }
+    .contact-row { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; padding: 30px 20px; }
+    .contact-card { width: 30%; min-width: 250px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.15); border-radius: 10px; overflow: hidden; }
+    .contact-card img { height: 200px; object-fit: cover; }
+    .contact-card .title { font-size: 1.3rem; font-weight: 700; margin-bottom: 5px; color: #00897b; }
+    .hours { text-align: center; padding: 0 20px 30px 20px; color: #333; }
+  </style>
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%; margin-bottom: 5%;">
+    <div class="contact-header">
+      <h1>Contact Us</h1>
+      <p>Have a question about a vehicle, a test drive or your service appointment? Our team is happy to help. Reach out using any of the details below.</p>
+    </div>
+
+    <div class="contact-row">
+      <div class="card contact-card">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=600" alt="Head Office">
+        <div class="card-body">
+          <p class="title">Head Office</p>
+          <p class="card-text">1250 Park Avenue, Suite 400<br>Topeka, Kansas 66603<br>United States</p>
+        </div>
+      </div>
+
+      <div class="card contact-card">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sales Team">
+        <div class="card-body">
+          <p class="title">Sales Enquiries</p>
+          <p class="card-text">Phone: +1 (785) 555-0142<br>Email: sales@bestcars.com</p>
+        </div>
+      </div>
+
+      <div class="card contact-card">
+        <img class="card-img-top" src="https://randomuser.me/api/portraits/men/52.jpg" alt="Support Team">
+        <div class="card-body">
+          <p class="title">Customer Support</p>
+          <p class="card-text">Phone: +1 (785) 555-0178<br>Email: support@bestcars.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hours">
+      <h4>Opening Hours</h4>
+      <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
